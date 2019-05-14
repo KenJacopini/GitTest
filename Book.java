@@ -5,6 +5,18 @@ public class Book{
 	private String genre;
 	private boolean isHardcover;
 
+		public void setGenre(String genre){
+			this.genre = genre;
+		}
+
+		public String getAuthor(){
+			return author;
+		}
+
+		public boolean getIsHardcover(){
+			return isHardcover;
+		}
+
 	public static void main(String[] args){
 
 		Book 
