@@ -9,6 +9,10 @@ public class Book{
 			this.genre = genre;
 		}
 
+		public void setAuthor(String author){
+			this.genre = genre;
+		}
+
 		public String getAuthor(){
 			return author;
 		}
